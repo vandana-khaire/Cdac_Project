@@ -1,0 +1,28 @@
+GNU nano 7.2
+
+[monitor:///var/log/syslog]
+
+disabled = false
+
+index = main
+
+
+[monitor:///var/log/auth.log]
+
+disabled = false
+
+index = main
+
+
+[monitor:///var/log/messages]
+
+disabled = false
+
+index = main
+
+
+[monitor:///var/ossec/logs/alerts/alerts.log]
+
+disabled = false
+
+index = main

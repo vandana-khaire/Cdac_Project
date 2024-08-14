@@ -1,0 +1,16 @@
+prerequisites
+
+# sudo apt-get install build-essential make zlib1g-dev libpcre2-dev libevent-dev libssl-dev
+
+download
+
+# wget https://github.com/ossec/ossec-hids/archieve/3.7.0.tar.gz
+
+# tar -zxvf 3.7.0.tar.gz
+
+# sudo apt update
+
+# cd ossec-hids-3.7.0
+
+# sh install.sh
+

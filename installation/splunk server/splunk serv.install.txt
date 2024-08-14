@@ -1,0 +1,11 @@
+1. on shell command
+	wget -O splunk-9.3.0-51ccf43db5bd-Linux-x86_64.tgz "https://download.splunk.com/products/splunk/releases/9.3.0/linux/splunk-9.3.0-51ccf43db5bd-Linux-x86_64.tgz"4.tgz"
+2. Use the command 
+	"sudo tar -xvf filename.tgz -C /opt/"
+3. Use the command 
+	"/opt/splunkforwarder/bin/splunk enable boot-start --accept-license" for enable the boot start
+4. Use the command 
+	"/opt/splunkforwarder/bin/splunk enable listen 9997" for enable the connection with the indexer. 
+5. Use the command "/opt/splunkforwarder/bin/splunk start" for start splunk forwarder.
+6. Now login using user and password.
+7.  After login you will get the home page of the splunk dashboard.

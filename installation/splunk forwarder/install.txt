@@ -1,0 +1,81 @@
+1. on shell command
+	wget -O splunkforwarder-9.3.0-51ccf43db5bd-Linux-x86_64.tgz "https://download.splunk.com/products/universalforwarder/releases/9.3.0/linux/splunkforwarder-9.3.0-51ccf43db5bd-Linux-x86_64.tgz"
+2. Use the command 
+	"sudo tar -xvf filename.tgz -C /opt/"
+3. Use the command 
+	"/opt/splunkforwarder/bin/splunk enable boot-start --accept-license" for enable the boot start
+4. Use the command 
+	"/opt/splunkforwarder/bin/splunk add forward-server hostname.domain:9997" for enable the connection with the indexer. 
+	This command will create the outputs.conf in /opt/splunkforwarder/etc/system/local folder.
+5. Use the command
+	"/opt/splunkforwarder/bin/splunk list forward-server" for test the connection.
+6. Use the command
+	"/opt/splunkforwarder/bin/splunk start" for start splunk forwarder.
+7. In the forwarder the user is always admin and the password is always changeme.
+8. Use the command 
+	"opt/splunkforwarder/bin/splunk add monitor /path/to/app/logs/"  for add a new input.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
